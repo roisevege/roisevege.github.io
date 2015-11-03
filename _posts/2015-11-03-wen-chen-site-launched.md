@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "site launched. please leave your comments."
+title: "site launched. beta1"
 date: 2011-11-03
 ---
 
