@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
-    width: 70%;
     color: #ffffff;
+    background:#ffffff;
 }
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -15,22 +15,34 @@ footer ul li {
 }
 a {
     text-decoration: none;
-    color: #AE172A;
+    color: #3a3939;
 }
 a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #666,   
 }
 h1 {
-    font-size: 1.6em;
+    font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
 h1,h2,h3{
     margin: 0px;
     padding: 0px;
     font-weight: 400;
 }
+
+h2 {
+    font-size: 2.4em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
 p {
-    font-size: 1.4em;
-    line-height: 1.3em;
+
+    line-height: 180%
     color: #333;
 }
 footer {
@@ -48,11 +60,6 @@ ul.posts li {
 }
 img.border{
     border: 6pm solid #E1F1F6;
-}
-
-img.alignleft{
-    float: left;
-    margin-right: 25px;
 }
 
 img.aligncenter {
@@ -73,7 +80,7 @@ img.aligncenter {
 #logo{
     margin: 0;
     padding: 45px 0px 15px 0px;
-    color: #000000;
+    color: #333333;
 }
 
 #logo h1, #logo p{
@@ -91,7 +98,7 @@ img.aligncenter {
 /* Menu */
 #menu-wrapper{
     height: 50px;
-    background: url(images/menu-wrapper.png) repeat-x left top;
+    background: url(image/menu-wrapper.png) repeat-x left top;
 }
 
 #menu {
@@ -149,13 +156,13 @@ img.aligncenter {
 .post {
     margin-bottom:30px;
     padding: 40px 40px;
-    background: rgba(0,0,0,.5);
+    background: rgba(192,192,192,0.3);
 }
 
 .post .title{
     padding-bottom:20px;
     letter-spacing: -1px;
-    color: #000000;
+    color: #333333;
 }
 
 .post .meta{
@@ -181,7 +188,7 @@ img.aligncenter {
     float: right;
     width: 290px;
     padding: 40px 20px;
-    background: rgba(0,0,0,.5);
+    background: rgba(192,192,192,0.3);
 }
 
 #sidebar ul {
@@ -216,7 +223,7 @@ img.aligncenter {
     height: 38px;
     padding: 12px 0 20px 15px;
     letter-spacing: -1px;
-    color: #000000;
+    color: #333;
 }
 
 #sidebar p {
@@ -227,7 +234,7 @@ img.aligncenter {
 
 #sidebar a {
     border: none;
-    color: #000000;
+    color: #333;
 }
 
 #sidebar a:hover {
@@ -235,10 +242,10 @@ img.aligncenter {
     color: #3a3939;
 }
 
-#about.title{
+#about .title{
     padding-bottom: 30px;
     letter-spacing: -1px;
-    color: #000000;
+    color: #333;
 }
 
 
