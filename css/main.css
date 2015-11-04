@@ -1,23 +1,23 @@
 body {
     margin: 60px auto;
     width: 70%;
+    color: #ffffff;
 }
-nav ul, footer ul {
+footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
-    display: inline;
+footer ul li {
+    display: inline-block;
     margin-right: 20px;
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #AE172A;
 }
 a:hover {
-    text-decoration: underline;
 }
 h1 {
     font-size: 1.6em;
@@ -54,3 +54,200 @@ img.alignleft{
     float: left;
     margin-right: 25px;
 }
+
+img.aligncenter {
+    margin: 0px auto;
+}
+
+#wrapper {
+    margin: 0px auto;
+    padding: 0;
+}
+
+#header{
+    overflow:hidden;
+    width: 900px;
+    margin:0 auto;
+}
+
+#logo{
+    margin: 0;
+    padding: 45px 0px 15px 0px;
+    color: #000000;
+}
+
+#logo h1, #logo p{
+    margin: 0;
+    padding: 0;
+}
+
+#logo h1{
+    display: block;
+    letter-spacing: -3px;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Menu */
+#menu-wrapper{
+    height: 50px;
+    background: url(images/menu-wrapper.png) repeat-x left top;
+}
+
+#menu {
+    width: 900px;
+    height: 50px;
+    margin: 0px auto 0 auto;
+    padding: 0px 40px;
+    text-align: center;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+
+#menu li {
+    display:inline-block;
+    border-radius: 10px;
+}
+
+#menu a {
+    display:inline-block;
+    height:50px;
+    margin-right: 1px;
+    padding: 0px 20px 0px 20px;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    border: none;
+}
+
+#menu .current_page_item a {
+    background:#3a3939;
+}
+
+#menu a:hover {
+    backgound: #3a3939;
+}
+
+/* Page */
+#page{
+    overflow:hidden;
+    width: 900px;
+    margin: 0px auto;
+}
+
+#content {
+    float:left;
+    width:540px;
+}
+
+.post {
+    margin-bottom:30px;
+    padding: 40px 40px;
+    background: rgba(0,0,0,.5);
+}
+
+.post .title{
+    padding-bottom:20px;
+    letter-spacing: -1px;
+    color: #000000;
+}
+
+.post .meta{
+    padding-bottom: 5px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+    text-align: justify;
+    margin-bottom: 25px;
+    padding: 10px 0px 0px 0px;
+}
+
+/* Sidebar */
+#sidebar{
+    float: right;
+    float: right;
+    width: 290px;
+    padding: 40px 20px;
+    background: rgba(0,0,0,.5);
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+#sidebar li {
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar li ul {
+    margin: 0px 15px;
+    padding-bottom: 30px;
+}
+
+#sidebar li li {
+    line-height: 35px;
+}
+
+#sidebar li li span {
+    display: block;
+    margin-top: -20px;
+    padding: 0;
+    font-size: 11px;
+    font-style: italic;
+}
+
+#sidebar h2 {
+    height: 38px;
+    padding: 12px 0 20px 15px;
+    letter-spacing: -1px;
+    color: #000000;
+}
+
+#sidebar p {
+    margin: 0 0px;
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
+}
+
+#sidebar a {
+    border: none;
+    color: #000000;
+}
+
+#sidebar a:hover {
+    text-decoration: underline;
+    color: #3a3939;
+}
+
+#about.title{
+    padding-bottom: 30px;
+    letter-spacing: -1px;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
