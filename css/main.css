@@ -20,8 +20,13 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 1.6em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h1,h2,h3{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
 }
 p {
     font-size: 1.4em;
@@ -40,4 +45,12 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+img.border{
+    border: 6pm solid #E1F1F6;
+}
+
+img.alignleft{
+    float: left;
+    margin-right: 25px;
 }
