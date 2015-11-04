@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    color: #ffffff;
+    color: ##3e3d3d;
     background:#ffffff;
 }
 footer ul {
@@ -60,6 +60,15 @@ ul.posts li {
 }
 img.border{
     border: 6pm solid #E1F1F6;
+}
+
+img.alignleft {
+    float: left;
+    margin-right: 25px;
+}
+
+img.alignright {
+    float: right;
 }
 
 img.aligncenter {
@@ -129,7 +138,7 @@ img.aligncenter {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: normal;
-    color: #ffffff;
+    color: #3e3d3d;
     border: none;
 }
 
@@ -240,6 +249,14 @@ img.aligncenter {
 #sidebar a:hover {
     text-decoration: underline;
     color: #3a3939;
+}
+
+#about {
+    overflow: hidden;
+    width: 820px;
+    margin: 30px auto 30px auto;
+    padding: 40px 40px;
+    background: rgba(192,192,192,0.3);
 }
 
 #about .title{
