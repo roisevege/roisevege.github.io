@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    color: ##3e3d3d;
+    color: #3e3d3d;
     background:#ffffff;
     width: 80%;
     font-family: 'Arvo',serif;
@@ -107,7 +107,7 @@ img.aligncenter {
 /* Menu */
 #menu-wrapper{
     height: 50px;
-    background: url("/image/menu-wrapper.png") repeat-x left top;
+    color:#333;
 }
 
 #menu {
