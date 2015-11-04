@@ -6,7 +6,6 @@ body {
     font-family: 'Arvo',serif;
 }
 footer ul {
-    font-family:'Helvetica', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -117,6 +116,7 @@ img.aligncenter {
     margin: 0px auto 0 auto;
     padding: 0px 40px;
     text-align: center;
+    color: #C0C0C0;
 }
 
 #menu ul{
@@ -257,7 +257,7 @@ img.aligncenter {
     width: 820px;
     margin: 30px auto 30px auto;
     padding: 40px 40px;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0);
 }
 
 #about .title{
