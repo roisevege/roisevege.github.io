@@ -2,9 +2,11 @@ body {
     margin: 60px auto;
     color: ##3e3d3d;
     background:#ffffff;
+    width: 80%;
+    font-family: 'Arvo',serif;
 }
 footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Helvetica', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -23,7 +25,6 @@ a:hover {
 }
 h1 {
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 h1,h2,h3{
@@ -33,7 +34,7 @@ h1,h2,h3{
 }
 
 h2 {
-    font-size: 2.4em;
+    font-size: 1.9em;
 }
 
 h3 {
@@ -256,7 +257,7 @@ img.aligncenter {
     width: 820px;
     margin: 30px auto 30px auto;
     padding: 40px 40px;
-    background: rgba(192,192,192,0.3);
+    background: rgba(0,0,0,0.3);
 }
 
 #about .title{
