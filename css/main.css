@@ -107,7 +107,7 @@ img.aligncenter {
 /* Menu */
 #menu-wrapper{
     height: 50px;
-    background: url(https://github.com/roisevege/roisevege.github.io/blob/master/image/menu-wrapper.png) repeat-x left top;
+    background: url(https://raw.githubusercontent.com/roisevege/roisevege.github.io/master/image/menu-wrapper.png) repeat-x left top;
 }
 
 #menu {
