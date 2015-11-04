@@ -16,7 +16,7 @@ footer ul li {
 }
 a {
     text-decoration: none;
-    color: #3a3939;
+    color: #6C6B6B;
 }
 a:hover {
     color: #fff;
@@ -107,7 +107,7 @@ img.aligncenter {
 /* Menu */
 #menu-wrapper{
     height: 50px;
-    background: url(image/menu-wrapper.png) repeat-x left top;
+    background: url(https://github.com/roisevege/roisevege.github.io/blob/master/image/menu-wrapper.png) repeat-x left top;
 }
 
 #menu {
@@ -257,7 +257,6 @@ img.aligncenter {
     width: 820px;
     margin: 30px auto 30px auto;
     padding: 40px 40px;
-    background: rgba(0,0,0,0);
 }
 
 #about .title{
