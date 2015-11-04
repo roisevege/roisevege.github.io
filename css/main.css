@@ -16,7 +16,7 @@ footer ul li {
 }
 a {
     text-decoration: none;
-    color: #6C6B6B;
+    color: #9a9696;
 }
 a:hover {
     color: #fff;
@@ -107,7 +107,7 @@ img.aligncenter {
 /* Menu */
 #menu-wrapper{
     height: 50px;
-    background: url("image/menu-wrapper.png") repeat-x left top;
+    background: url("/image/menu-wrapper.png") repeat-x left top;
 }
 
 #menu {
@@ -257,7 +257,7 @@ img.aligncenter {
     width: 820px;
     margin: 30px auto 30px auto;
     padding: 40px 40px;
-    background: #ffffff;
+    background: rgba(0,0,0,0);
 }
 
 #about .title{
