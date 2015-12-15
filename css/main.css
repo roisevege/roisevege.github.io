@@ -162,7 +162,7 @@ img.aligncenter {
     overflow:hidden;
     width: 900px;
     margin: 0px auto;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 #content {
@@ -174,7 +174,7 @@ img.aligncenter {
     margin-bottom:30px;
     padding: 40px 40px;
     background: rgba(192,192,192,0.2);
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .post .title{
@@ -207,7 +207,7 @@ img.aligncenter {
     width: 290px;
     padding: 40px 20px;
     background: rgba(192,192,192,0.3);
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 #sidebar ul {
@@ -267,7 +267,7 @@ img.aligncenter {
     margin: 30px auto 30px auto;
     padding: 40px 40px;
     background: rgba(0,0,0,0);
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 #about .title{
