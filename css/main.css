@@ -205,7 +205,7 @@ img.aligncenter {
     float: right;
     float: right;
     width: 290px;
-    padding: 40px 20px;
+    padding: 30px 10px;
     background: rgba(192,192,192,0.3);
     border-radius: 10px;
 }
@@ -223,7 +223,7 @@ img.aligncenter {
 
 #sidebar li ul {
     margin: 0px 15px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 #sidebar li li {
